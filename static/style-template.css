@@ -1,0 +1,1113 @@
+/*  BODY */
+body { 
+    margin: 0 !important; 
+    padding: 0 !important;
+    font-family: Arial !important;
+}
+
+
+
+/* CLASSES DIVERSAS */
+.body p, li, a {
+    font-size: 0.95em !important;
+    color:#666 !important;
+    line-height: 22px !important;
+    margin-top: 0 !important;
+}
+.body p:last-child {
+    margin-bottom: 0 !important;
+}
+.body a {
+    color:#0a528f !important;
+    text-decoration: none !important;
+}
+.body a:hover {
+    color:#0a528f !important;
+}
+.body .espaco-esquerda {
+    padding-left: 40px;
+}
+.body .fa .fa-mouse-pointer .cor-sucundaria {
+    color: #662D91 !important;
+}
+
+.body ul li {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0 !important;
+    
+}
+
+.body ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0 !important;
+}
+
+/* .body ul li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: #0a528f !important;
+} */
+
+.body ul.lista-itens {
+    display: block !important;
+    margin: 0 0 0 20px;
+    padding: 0 0 0 20px !important;
+    list-style-type: none !important;
+}
+
+.body .lista-itens li:before {
+
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: #0a528f !important;
+}
+
+.body sup {
+    font-size: 0.7em;
+}
+
+
+/* HEADER COMPONENTE */
+.body {
+    overflow: hidden !important;
+}
+.body .grid-edx {
+    width: 1080px !important;
+    margin: 0 auto !important;
+}
+.body header {
+    background: url("cabecalho_edx.png") !important;
+    background-color: #0a528f !important;
+    background-position: right !important;
+    margin: 0 !important;
+    background-repeat: no-repeat !important;
+}
+.body header h1 {
+    font-size: 1.3em !important;
+    margin: 10px 0 0 0 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    position: relative !important;
+}
+.body header h2 {
+    font-size: 1em !important;
+    margin: 0 0 5px 0 !important;
+    color: #fff !important;
+    position: relative !important;
+    font-weight: bold !important;
+}
+.body i {
+    font-style: normal !important;
+}
+.body .logo-projeto {
+    width: auto !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    background-color: #fff !important;
+    padding: 0 14px 0 14px !important;
+}
+.body .logo-projeto img {
+    width: 100% !important;
+}
+.body .dados-curso {
+    height: 170px !important;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    position: relative !important;
+    padding: 0 60px 0 0 !important;
+}
+.body .dados-curso::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    height: 100% !important;
+    width: 450% !important;
+    z-index: 0 !important;
+}
+.body span.numero-modulo {
+    padding: 2px 7px 2px 7px !important;
+    color:#fff !important;
+    margin: 0 5px 0 0 !important;
+    border: 2px solid #fff !important;
+    border-radius: 5px !important;
+}
+.body .box-componente-vocesabia {
+    padding: 25px 25px 25px 25px !important;
+    background-color: #f1f1f1 !important;
+    border: 2px solid #0a528f !important;
+}
+.body .box-componente-vocesabia h1 {
+    color: #fff !important;
+    font-size: 0.95em !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: -28px !important;
+    left: 50% !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 8px 15px 8px 15px !important;
+    border: 2px solid #0a528f !important;
+    background-color: #0a528f !important;
+    font-weight: bold !important;
+}
+.body .box-componente-atencao {
+    padding: 25px 25px 25px 25px !important;
+    background-color: #f1f1f1 !important;
+    border-top: 1px solid #4d7fb4 !important;
+    border-left: 1px solid #4d7fb4 !important;
+    border-right: 1px solid #4d7fb4 !important;
+    border-bottom: 4px solid #4d7fb4 !important;
+}
+.body .box-componente-atencao h1 {
+    color: #fff !important;
+    font-size: 0.95em !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: -28px !important;
+    left: 50% !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 8px 15px 8px 15px !important;
+    border: 2px solid #4d7fb4 !important;
+    background-color: #4d7fb4 !important;
+    font-weight: bold !important;
+}
+.body .box-componente-material-complementar {
+    padding: 35px !important;
+    margin-top:50px;
+    background-color: #f1f1f1 !important;
+    border-bottom: 4px solid #0a528f !important;
+    border-radius: 10px;
+}
+.body .box-componente-material-complementar h1 {
+    color: #fff !important;
+    font-size: 0.95em !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: -37px !important;
+    left: 50% !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 2px 15px 2px 2px !important;
+    border: 2px solid #0a528f !important;
+    background-color: #0a528f !important;
+    font-weight: bold !important;
+    border-radius: 10px;
+}
+.body .box-componente-material-complementar span {
+    padding: 8px;
+    font-size: 1.4em;
+    background-color: #fff;
+    margin: 0 10px 0 0;
+    border-radius: 8px;
+    color:#0a528f;
+}
+.body .box-componente-material-complementar a {
+    border-bottom: 1px dashed #0a528f !important;
+}
+.body .box-componente-questao {
+    padding: 25px !important;
+    background-color: #f4f4f4 !important;
+}
+.body .box-componente-itens-questao {
+    padding: 10px !important;
+    margin: 2px 0 0 0 !important;
+    border: 2px solid #e3e3e1 !important;
+}
+.body .box-componente-itens-questao label {
+    font-size: 0.95em !important;
+    color:#666 !important;
+}
+.body .box-componente-questao h1 {
+    color: #0a528f !important;
+    font-size: 1.1em !important;
+    margin-top: 0 !important;
+}
+.body .color-error {
+    color:#b12121 !important;
+}
+.body .feedback {
+    padding: 25px !important;
+    background-color: #fff !important;
+    margin: 10px 0 0 0 !important;
+}
+.body p.fonte-referencia {
+    font-size: 0.8em !important;
+    font-style: italic;
+}
+.body .orientacao {
+    font-size: 0.8em;
+    color:#000;
+}
+.body .imagem-marcacao {
+    width: 100%;
+}
+
+
+
+/* CONTENT COMPONENTE */
+.body .conteudo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.body h3 {
+    font-size: 1.2em !important;
+    color: #0a528f !important;
+    position: relative !important;
+    font-weight: bold !important;
+    margin-top: 0;
+}
+.body h4 {
+    font-size: 1em !important;
+    color: #0a528f !important;
+    position: relative !important;
+    font-weight: bold !important;
+    margin-top: 0;
+}
+.body .bg-cinza {
+    background: url("back-geral.png") !important;
+    background-repeat: repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+.body .cor-primaria {
+    color:#0a528f !important;
+}
+.body .title {
+    color: #0a528f !important;
+    border-left: 3px solid #0a528f;
+    font-weight: 700;
+    padding-left: 16px !important;
+    margin-bottom: 30px !important;
+}
+.body .mb-4.box-componente-destaque b.cor-primaria {
+    color:#0a528f !important;
+    font-size: 15.2px !important;
+}
+.body .fa-mouse-pointer:before {
+    color: #0a528f !important;
+}
+
+.body .mb-4 b.cor-primaria {
+    color:#0a528f !important;
+    font-size: 16.2px !important;
+}
+.body p.text-center {
+    font-size: 1em !important;
+}
+.body p.orientacao {
+    font-size: 0.8em !important;
+}
+.body img.vocesabia {
+    width: auto !important;
+    padding: 0 10px 0 0 !important;
+}
+.body nav.lista-itens ul {
+    display: block !important;
+    margin: 0 0 0 20px !important;
+    padding: 0 0 0 20px !important;
+    list-style-type: none !important;
+}
+.body nav.lista-itens ul li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: #ccc;
+}
+
+
+
+/* TABELA */
+table {
+    border-spacing: 0 !important;
+}
+
+.body .tabela-template {
+    width: 100% !important;
+    background-color: #fff !important;
+}
+.body .tabela-template th {
+    width: 50% !important;
+    background-color: #0a528f !important;
+    padding: 10px !important;
+    margin: 2px !important;
+}
+.body .tabela-template td {
+    border: 1px solid #ededec !important;
+    margin: 2px !important;
+    padding: 15px !important;
+}
+.body .tabela-template th p {
+    font-family: Arial !important;
+    color:#fff !important;
+    font-weight: bold !important;
+    font-size: 0.95em !important;
+    line-height: 22px !important;
+}
+.body .tabela-template td p {
+    font-family: Arial !important;
+    font-size: 0.95em !important;
+    line-height: 22px !important;
+}
+.xmodule_display.xmodule_HtmlModule table td, .xmodule_display.xmodule_HtmlModule table th {
+    margin: unset !important;
+    padding: 15px !important;
+    border: 1px solid #ccc !important;
+    font-size: unset !important;
+}
+
+
+
+
+
+/* VÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂDEO COMPONENTE */
+.body .box-video { 
+    position: relative !important; 
+    padding-bottom: 50% !important; 
+    height: 0 !important; 
+    overflow: hidden !important; 
+    max-width: 100% !important; 
+    border-radius: 10px !important;
+} 
+.body .box-video iframe, .body .box-video object, .body .box-video embed { 
+    position: absolute !important; 
+    top: 0 !important; 
+    left: 0 !important; 
+    width: 100% !important; 
+    height: 100% !important; 
+}
+.body .box-video h1 {
+    font-size: 1.2em !important;
+    background-color: #0a528f !important;
+    position: absolute !important;
+    bottom: 30px !important;
+    left: 0 !important;
+    padding: 20px !important;
+    text-align: left !important;
+    line-height: 25px !important;
+    color: #fff !important;
+    border-radius: 0 10px 10px 0 !important;
+}
+.body .box-video i.icon-video {
+    font-size: 6em !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    color:#0a528f !important;
+}
+.body .box-video img {
+    width: 100% !important;
+    background-size: contain !important;
+    position: relative !important;
+}
+
+
+
+
+
+/* QUESTÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ES */
+.box-enunciado {
+    border: 5px solid #f4f4f4 !important;
+    padding: 20px !important;
+}
+.box-enunciado h1 {
+    width: auto !important;
+    background-color: #0a528f !important;
+    padding: 5px 10px 5px 10px !important;
+    display: inline-block !important;
+    color: #fff !important;
+    font-size: 1em !important;
+    margin-bottom: 10px !important;
+    font-weight: bold;
+}
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="radio"], .xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="checkbox"] {
+    left: 0.5625em;
+    position: absolute;
+    top: unset !important;
+}
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    padding: 15px !important;
+    padding-left: 38px !important;
+    position: relative !important;
+    font-size: 0.95em !important;
+    line-height: normal !important;
+    cursor: pointer !important;
+    background-color: #f4f4f4 !important;
+    color: #666 !important;
+    margin-bottom: 3px !important;
+    border: 1px solid #f4f4f4 !important;
+}
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label:hover {
+    background-color: #ededec !important;
+    border: 1px solid #f4f4f4 !important;
+}
+span.resposta-incorreta {
+    font-weight: bold !important;
+    color:#b20610 !important;
+}
+span.resposta-incorreta::before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+span.resposta-correta {
+    font-weight: bold !important;
+    color:#008100 !important;
+}
+span.resposta-correta::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label.choicegroup_correct, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label.choicegroup_correct, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label.choicegroup_correct, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label.choicegroup_correct, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label.choicetextgroup_correct, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup section.choicetextgroup_correct, .xmodule_display.xmodule_ConditionalModule div.problem .choicetextgroup .xmodule_display.xmodule_CapaModule .choicegroup label.choicetextgroup_correct, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label.choicetextgroup_correct, .xmodule_display.xmodule_ConditionalModule div.problem .choicetextgroup .xmodule_display.xmodule_CapaModule .choicegroup section.choicetextgroup_correct, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup section.choicetextgroup_correct {
+    border: unset !important;
+    background-color: #ddebdd !important;
+}
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label.choicegroup_incorrect, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label.choicegroup_incorrect, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label.choicegroup_incorrect, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label.choicegroup_incorrect, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label.choicetextgroup_incorrect, .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup section.choicetextgroup_incorrect, .xmodule_display.xmodule_ConditionalModule div.problem .choicetextgroup .xmodule_display.xmodule_CapaModule .choicegroup label.choicetextgroup_incorrect, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label.choicetextgroup_incorrect, .xmodule_display.xmodule_ConditionalModule div.problem .choicetextgroup .xmodule_display.xmodule_CapaModule .choicegroup section.choicetextgroup_incorrect, .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup section.choicetextgroup_incorrect {
+    border: unset !important;
+    background-color: #ebdddd !important;
+}
+.verification-process .report-receipt-provider .provider-buttons-logos .complete-order button, .dashboard .main-container .my-courses .course .details .enter-course, .wrapper-messages-primary .message.message-upsell .action-view-consent, .wrapper-messages-primary .message.message-status .verification-cta .btn, .wrapper-messages-primary .message.message-status .credit-action .credit-btn, .btn-secondary, .dashboard .main-container .my-courses .course .details .enter-course.archived, .wrapper-messages-primary .message.message-upsell .action-view-consent.archived, .account-settings-sections .section .account-settings-section-body .u-field .field .u-field-link, .account-settings-sections .section .account-settings-section-body .u-field .u-field-order .u-field-order-link .u-field-link, .account-settings-sections .section .account-settings-section-body .u-field .u-field-order-lines .u-field-order-link .u-field-link, .account-settings-sections .section .account-deletion-details .btn-outline-primary, .account-settings-sections .section .account-deletion-details .delete-confirmation-wrapper .paragon__modal-footer .paragon__btn-outline-primary, .courseware-bookmarks-button .bookmarks-list-button, .pagination .current-page, .pagination .page-number-input, .pagination .total-pages, .verification-process .carousel #wrapper-review .review-task .copy, .verification-process.step-confirmation .list-info .info-item .copy, .view-survey .instructions, .view-survey .action-primary, .view-survey label, .login-register .instructions, .financial-assistance-wrapper .financial-assistance-form .instructions, .login-register .status .message-copy, .financial-assistance-wrapper .financial-assistance-form .status .message-copy, .login-register .status .message-copy p, .financial-assistance-wrapper .financial-assistance-form .status .message-copy p, .login-register .institution-list .institution, .financial-assistance-wrapper .financial-assistance-form .institution-list .institution, .verification-process.step-select-track .register-choice .copy, .verification-process.step-select-track .register-choice .wrapper-copy-inline, .verification-process.step-select-track .register-choice .copy-inline, .verification-process.step-requirements .list-reqs .req .copy-super, .verification-process.step-requirements .list-reqs .req-activate .copy-sub, .cart-errors, .confirm-enrollment .enrollment-details .enrollment-text, .shopping-cart .user-data .data-input h1 span, .shopping-cart .user-data .data-input .three-col .col-1, .shopping-cart .user-data .data-input .three-col .col-2 .numbers-row label, .shopping-cart .discount .code-input input[type="text"], .shopping-cart .col-two .col-1 span.radio-group label, .shopping-cart .col-two .col-2 p, .shopping-cart .billing-data .col-half .data-group label, .shopping-cart .billing-data .col-half .data-group input, .wrapper-authorize p, .financial-assistance-wrapper p, .financial-assistance-wrapper .user-info .title, .financial-assistance-wrapper .user-info .data, .wrapper-msg.wrapper-auto-cert .auto-cert-message .has-actions .msg-actions, #api-access-wrapper #api-access-status, #api-access-wrapper .api-form-container .api-form label, #api-access-wrapper .api-form-container .api-form input, #api-access-wrapper .api-form-container .api-form textarea, #api-access-wrapper .api-form-container .api-form input[type=submit], #api-access-wrapper .api-form-container .api-form textarea[type=submit], #api-access-wrapper .api-form-container .api-form .errorlist li, #api-access-wrapper .api-form-container .api-form #api-access-submit, #api-access-wrapper .api-form-container .api-form .preview-query, #api-access-wrapper .application-info p, .view-profile .wrapper-profile-section-container-two .u-field-value, .view-profile .badge-set-display .badge-display .badge-details .badge-name, .ui-loading, .ui-loading-base, .wrapper-account-settings .ui-loading-indicator, .wrapper-account-settings .ui-loading-error, .view-profile .ui-loading-indicator, .login .deco-divider .copy, .register .deco-divider .copy, .passwordreset .deco-divider .copy, #forgot-password-modal #password-reset .deco-divider .copy, .verification-process .carousel .view .instruction, .verification-process .deco-divider .copy, .verification-process .content-main .instruction, .verification-process.step-requirements .list-reqs .req-activate .copy-super, .register.is-not-verified.step-confirmation .view .instruction, .confirm-enrollment .enrollment-details .course-dates, .shopping-cart .discount .code-text a, .shopping-cart table.course-receipt tr td:first-child, .view-profile .badges-overlay .badges-modal, .confirm-enrollment a.link-button, .confirm-enrollment button[type="submit"], .shopping-cart a.blue, .shopping-cart .user-data .data-input .three-col .col-1 .price span, .shopping-cart .user-data .data-input .three-col .col-2 .numbers-row .counter input[type="text"], .shopping-cart .discount .code-text span b, .shopping-cart .col-two .col-2 button[type="submit"], .empty-cart a.blue, body.error .description, .listing-tools, .listing-tools .listing-sort-select, .verification-process .help-item .copy, .verification-process .carousel .requirements .requirement .copy, .verification-process .carousel .wrapper-task .wrapper-help .help .copy, .verification-process .carousel #wrapper-review .review-task-photos .wrapper-photos .help-tips .copy, .verification-process.step-select-track .register-choice-certificate .action-intro, .verification-process.step-select-track .help-register .copy, .u-field-message, .modal-settings-language .actions-supplemental .list-actions-item, .wrapper-messages-primary .message .message-copy, .wrapper-messages-primary .message .message-copy .copy, .wrapper-messages-primary .message.message-status .message-copy, .wrapper-messages-primary .message.message-status .certificate-explanation, .status-verification .status-data-message, .find-courses .discovery-input, .view-survey .action-cancel, .view-survey button, .view-survey input, .view-survey select, .view-survey textarea, .view-survey .bit p, .login-register .form-field .tip, .financial-assistance-wrapper .financial-assistance-form .form-field .tip, .login-register .form-field .label-optional, .financial-assistance-wrapper .financial-assistance-form .form-field .label-optional, .verification-process .wrapper-msg .msg-content .copy, .verification-process .nav-wizard .help-inline, .verification-process.step-select-track .register-choice-certificate .title-expand, .verification-process.step-review .nav-wizard .prompt-verify .copy, .verification-process.step-review .nav-wizard .prompt-verify .action-verify label, .verification-process.step-review .nav-wizard .step-match label, .verification-process .pay-and-verify .photo-tip, .verification-process .incourse-reverify .photo-tip, .verification-process .reverify .photo-tip, #expiry-msg, .shopping-cart .col-two .row-inside .billing-detail-label, .shopping-cart .col-two .row-inside .billing-detail-value, .shopping-cart .bordered-bar h2 span .blue-link, .shopping-cart .bordered-bar .home>header .title>.heading-group p span .blue-link, .home>header .title>.heading-group .shopping-cart .bordered-bar p span .blue-link, .shopping-cart .bordered-bar section.outside-app h1 span .blue-link, section.outside-app .shopping-cart .bordered-bar h1 span .blue-link, .shopping-cart table.course-receipt tr td:last-child span, .empty-cart p, .enrollment-modal-wrapper.is-shown .enrollment-modal .enrollment-change-field p, .enrollment-modal-wrapper.is-shown .enrollment-modal .enrollment-change-field label, .enrollment-modal-wrapper.is-shown .enrollment-modal .enrollment-change-field select, .enrollment-modal-wrapper.is-shown .enrollment-modal .enrollment-change-field input, .enrollment-modal-wrapper.is-shown .enrollment-modal .enrollment-change-errors, #api-access-wrapper p, #api-access-wrapper .api-form-container .api-form p .helptext, .view-profile .wrapper-profile-section-container-two .u-field.mode-placeholder .u-field-value, .view-profile .badge-set-display .badge-display .badge-details, .view-profile .badge-set-display .badge-display .badge-details .badge-date-stamp, .wrapper-msg .msg-content .copy, .wrapper-msg .msg-content .copy p, .message, .wrapper-notification .copy, .wrapper-alert .copy, .prompt .copy, .notification .copy, .alert:not(.pattern-library-shim) .action-dismiss .button-copy, .wrapper-message .message, .wrapper-message .message.information, .main-wrapper .alert, .msg__copy, .status-verification .status-note, .status-verification .status-note p, .login .instructions .note, .register .instructions .note, .passwordreset .instructions .note, #forgot-password-modal #password-reset .instructions .note, .course-info .container .wrap-instructor-info .instructor-info-action, .course-info section.outside-app .wrap-instructor-info .instructor-info-action, .course-info .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy .wrap-instructor-info .instructor-info-action, .view-profile .profile-self .wrapper-profile-field-account-privacy .course-info .u-field-account_privacy .wrap-instructor-info .instructor-info-action, .course-info .view-profile .wrapper-profile-sections .wrap-instructor-info .instructor-info-action, .view-profile .course-info .wrapper-profile-sections .wrap-instructor-info .instructor-info-action, .course-info .view-profile .badge-set-display .wrap-instructor-info .instructor-info-action, .view-profile .course-info .badge-set-display .wrap-instructor-info .instructor-info-action, .view-survey .list-input .field .tip, .login-register .note, .financial-assistance-wrapper .financial-assistance-form .note, .login-register .form-field .field-link, .financial-assistance-wrapper .financial-assistance-form .form-field .field-link, .verification-process.step-requirements .list-reqs .req .copy-sub, .shopping-cart .discount .code-input .error-text, .shopping-cart .error-text, .enrollment-results, .search-results .search-results-item .search-results-ellipsis, .msg__copy p {
+    font-family: Arial !important;
+}
+label {
+    font-family: Arial !important;
+}
+.indicator-container {
+    display: none !important;
+}
+.wrapper-problem-response {
+    margin-bottom: 50px !important;
+}
+body, h1, h2, h3, h4, h5, h6, p, label {
+    text-align: unset !important;
+    font-family: Arial !important;
+}
+.survey-table {
+    border: 1px solid #CCC !important;
+    margin-bottom:20px;
+}
+.survey-table thead, .survey-table tr{
+    background: #0a528f !important;
+}
+.survey-table thead{
+    color: #fff !important; 
+}
+.survey-question {
+    width:15%;
+    background: #f4f4f4 !important;
+    vertical-align: middle;
+    padding: 20px 10px !important;
+}
+td.survey-option {
+    vertical-align: middle;
+    text-align:center;
+}
+th.survey-answer {
+    padding: 20px 5px !important;
+}
+.survey-table{
+    margin-bottom: 20px;
+}
+.survey-question p{text-align: left !important;}
+.option_survey label{
+    font-size: 1em !important;
+    color: black !important;
+    line-height: 1.6em !important;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 100 !important;
+    font-style: normal;
+    text-transform: initial !important;
+    cursor: pointer;
+}
+.themed-xblock.poll-block table.survey-table .survey-row td p, .themed-xblock.poll-block table.survey-table .survey-row th p, .themed-xblock.poll-block .poll-answers .poll-answer .poll-answer p, .themed-xblock.poll-block ul.poll-results li.poll-result .poll-answer-label p {
+  margin-bottom: 0;
+  font-size: 0.9em;
+  color: #666;
+  font-family: Arial;
+}
+.survey-table td, .survey-table th {
+  border: 1px solid #ededec;
+  border-top: 0;
+}
+.survey-table {
+  border: 1px solid #ededec !important;
+  margin-bottom: 20px;
+}
+.poll-header {
+    display:none;
+}
+.xblock {
+    border:0px !important;
+}
+.view-results-button-wrapper, .poll-voting-thanks {
+    display:none !important
+}
+.xblock {
+    border:0px !important;
+}
+.xblock.xblock-student_view.xblock-student_view-survey.xblock-initialized {
+    width: 1080px;
+}
+
+
+
+
+
+/* CLASSES SOMENTE TBPED */
+.body img.objeto-numero {
+    width: 85%;
+}
+.body img.objeto-numero-2 {
+    width: 42.5%;
+}
+.body img.objeto-numero-3 {
+    width: 63.5%;
+}
+.body .box-grafico {
+    position: absolute;
+    z-index: 9999;
+    width: 154px;
+}
+.body .box-grafico p {
+    font-weight: bold;
+    color:#0a528f !important;
+}
+.body .grafico-1:nth-child(1) {
+    left: 11%;
+    top: 43%;
+}
+.body .grafico-1:nth-child(2) {
+    left: 32.3%;
+    top: 48%;
+}
+.body .grafico-1:nth-child(3) {
+    left: 53.5%;
+    top: 43%;
+}
+.body .grafico-1:nth-child(4) {
+    left: 75%;
+    top: 38%;
+}
+.body .grafico-2:nth-child(1) {
+    left: 32.4%;
+    top: 36%;
+}
+.body .grafico-2:nth-child(2) {
+    left: 53.6%;
+    top: 39%;
+}
+.body .grafico-3:nth-child(1) {
+    left: 21.7%;
+    top: 44%;
+}
+.body .grafico-3:nth-child(2) {
+    left: 43%;
+    top: 44%;
+}
+.body .grafico-3:nth-child(3) {
+    left: 64.1%;
+    top: 33%;
+}
+.body .grafico-4:nth-child(1) {
+    left: 32.4%;
+    top: 42%;
+}
+.body .grafico-4:nth-child(2) {
+    left: 53.6%;
+    top: 39%;
+}
+.body .grafico-5:nth-child(1) {
+    left: 21.7%;
+    top: 39%;
+}
+.body .grafico-5:nth-child(2) {
+    left: 43%;
+    top: 48%;
+}
+.body .grafico-5:nth-child(3) {
+    left: 64.2%;
+    top: 42%;
+}
+.body .grafico-6:nth-child(1) {
+    left: 11%;
+    top: 40%;
+}
+.body .grafico-6:nth-child(2) {
+    left: 32.3%;
+    top: 40%;
+}
+.body .grafico-6:nth-child(3) {
+    left: 53.5%;
+    top: 40%;
+}
+.body .grafico-6:nth-child(4) {
+    left: 75%;
+    top: 34%;
+}
+.body .box-grafico-tooltip {
+    position: absolute;
+    z-index: 9999;
+    width: 123px;
+    height: 209px;
+}
+.body .grafico-7:nth-child(1) {
+    left: 7.5%;
+    top: 8%;
+}
+.body .grafico-7:nth-child(2) {
+    left: 32%;
+    top: 8%;
+}
+.body .grafico-7:nth-child(3) {
+    left: 56.7%;
+    top: 8%;
+}
+.body .grafico-7:nth-child(4) {
+    left: 81.2%;
+    top: 8%;
+}
+.body .box-grafico-tooltip1 {
+    position: absolute;
+    z-index: 9999;
+    width: 260px;
+    height: 83px !important;
+    border-radius: 100px;
+}
+.body .grafico-8:nth-child(1) {
+    left: 0%;
+    top: 17%;
+}
+.body .grafico-8:nth-child(2) {
+    left: 0%;
+    top: 49.5%;
+}
+.body .grafico-8:nth-child(3) {
+    left: 37.8%;
+    top: 85.8%;
+}
+.body .grafico-8:nth-child(4) {
+    left: 75.6%;
+    top: 17%;
+}
+.body .grafico-8:nth-child(5) {
+    left: 75.6%;
+    top: 49%;
+}
+.body .box-branco {
+    background-color: #fff;
+    padding: 10px 0 10px 0;
+}
+.body .box-grafico-modal {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    border-radius: 100px;
+}
+.body .grafico-modal:nth-child(1) {
+    left: 4.2%;
+    top: 16.7%;
+}
+.body .grafico-modal:nth-child(2) {
+    left: 33.4%;
+    top: 16.7%;
+}
+.body .grafico-modal:nth-child(3) {
+    left: 62.5%;
+    top: 16.7%;
+}
+
+.body .box-mensagem {
+    border-bottom: 5px solid #cccccc;
+    padding: 15px;
+    background-color: #ededec;
+}
+
+.body .box-branco-borda {
+    padding: 20px !important;
+    background-color: #fff !important;
+    border: 2px solid #ccc !important;
+}
+
+.body .box-orientacao-1 {
+    width: 500px;
+    left: 29%;
+    position: absolute;
+}
+.body .box-orientacao-2 {
+    width: 500px;
+    left: 40.5%;
+    position: absolute;
+}
+
+.body .box-grafico-imagem {
+    position: absolute;
+    z-index: 9999;
+}
+.body .grafico-imagem:nth-child(1) {
+    left: 3%;
+    top: 5%;
+    width: 200px;
+}
+.body .grafico-imagem:nth-child(2) {
+    left: 43%;
+    top: 41%;
+    text-align: center;
+}
+.body .grafico-imagem:nth-child(3) {
+    left: 3%;
+    top: 87%;
+}
+
+
+
+
+
+
+
+
+.body .grafico-area-1:nth-child(1) {
+    left: 0.8%;
+    top: 35%;
+    width: 348px;
+    height: 284px;
+}
+.body .grafico-area-1:nth-child(2) {
+    left: 34%;
+    top: 53%;
+    width: 348px;
+    height: 205px;
+}
+.body .grafico-area-1:nth-child(3) {
+    left: 67.2%;
+    top: 65%;
+    width: 348px;
+    height: 152px;
+}
+
+
+
+.body .box-quadro {
+    width: 100%;
+}
+.body .box-quadro h1 {
+    background-color: #0a528f !important;
+    font-size: 0.95em !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    padding: 10px !important;
+    margin: 0 !important;
+}
+.body .box-quadro-branco {
+    padding: 15px 10px 15px 10px !important;
+    margin: 0 0 10px 0 !important;
+    border: 2px solid #0a528f !important;
+    height: 265px !important;
+}
+.body a.botao-topo {
+    font-size: 0.95em;
+    font-weight: bold;
+    text-decoration: none !important;
+    background-color: #662D91;
+    border-radius: 50px;
+    padding: 10px 15px 10px 0;
+    color:#fff !important;
+}
+.body i.destaque-seta {
+    background-color: #662D91;
+    padding: 8px 10px 8px 15px;
+    margin: 0 7px 0 0;
+    border-radius: 50px 0 0 50px;
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
+.body .bg-azul {
+    background-color: #0a528f;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+}
+.body .bg-azul p {
+    color: #fff !important;
+}
+.body img.icone-infografico {
+    width: 50%;
+    margin: 0 0 15px 0;
+}
+.body .text-left {
+    text-align: left !important;
+}
+.body h1.titulo-infografico {
+    margin-bottom: 2px !important;
+    font-size: 1.4em !important;
+}
+.body h1.titulo-infografico:last-child {
+    margin-bottom: 0 !important;
+}
+.body a.modal-trigger {
+    color:#0a528f !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+   
+}
+.body p.cor-red {
+    color:#d41323 !important;
+}
+.body .cor-green {
+    color:#0b961b !important;
+}
+.body sub {
+    font-size: 0.8em !important;
+    margin: 0 3px 0 0 !important;
+}
+
+.body .modal-box {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .modal-sandbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+}
+
+.body .box-container-objeto .box-text  {
+    color: #fff !important;
+    background-color: #0a528f;
+    padding: 20px;
+    border: 2px solid #0a528f !important;
+    border-radius: 10px;
+}
+   
+
+.body .box-flex {
+display: flex; 
+justify-content: center;
+gap: 20px;
+padding-bottom: 40px;
+}
+
+
+
+/* RESPONSIVO */
+@media handheld, only screen and (max-width: 767px) {
+    .body .conteudo {
+        padding: 30px !important;
+    }
+    header .row {
+        display: flex !important;
+        flex-flow: column-reverse !important;
+    }
+    .body header {
+        width: 100% !important;
+        background: url(back.png) center center repeat !important;
+    }
+    .body .dados-curso {
+        height: auto !important;
+        position: relative !important;
+        padding: 30px !important;
+        width: 100% !important;
+    }
+    .body .dados-curso::before {
+        display: none !important;
+    }
+    .body .logo-projeto {
+        width: auto !important;
+        height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        position: relative !important;
+        background-color: #fff !important;
+    }
+    .body .logo-projeto img {
+        width: 32% !important;
+        padding: 20px 0 20px 0 !important;
+    }
+    .body header h1 {
+        font-size: 1.1em !important;
+    }
+    .body header h2 {
+        font-size: 0.95em !important;
+        margin: 0 0 15px 0 !important;
+        font-weight: normal !important;
+    }
+    .body .box-video i.icon-video {
+        font-size: 3.5em !important;
+    }
+    .body .box-video h1 {
+        font-size: 0.95em !important;
+        padding: 8px !important;
+        bottom: 0 !important;
+    }
+    .body .grid-edx {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .body img.vocesabia {
+        display: none !important;
+    }
+}
+
+
+
+
+
+/* CLASSES EDX */
+h2.hd.hd-2.unit-title {
+    display: none !important;
+}
+.bookmark-button-wrapper {
+    display: none !important;
+}
+.xmodule_display.xmodule_SequenceModule .sequence-nav {
+    margin: 0 !important;
+}
+.container>div {
+    box-shadow: none !important;
+}
+.course-wrapper .course-content .xblock.xblock-student_view-vertical, .course-wrapper .courseware-results-wrapper .xblock.xblock-student_view-vertical {
+    max-width: 100% !important;
+}
+h1.top-header, .course-wrapper .course-content .vert-mod>div header, .course-wrapper .courseware-results-wrapper .vert-mod>div header, div.syllabus h1, .profile-wrapper .course-info header, div.gradebook-wrapper section.gradebook-content h1, div.static_tab_wrapper h1, .instructor-dashboard-content-2 h1.instructor-dashboard-title {
+    border-bottom: unset !important;
+    text-align:  unset !important;
+    font-size:  unset !important;
+    font-weight:  unset !important;
+    padding-bottom:  unset !important;
+}
+.xmodule_display.xmodule_HtmlModule h2 {
+    font: unset !important;
+    letter-spacing: unset !important;
+    margin-bottom: unset !important;
+    -webkit-font-smoothing: unset !important;
+    font-weight: bold !important;
+}
+.xmodule_display.xmodule_StaticTabModule h1 {
+    font: unset !important;
+    letter-spacing: unset !important;
+    margin: unset !important;
+    font-weight: bold !important;
+}
+body.view-in-course .static_tab_wrapper {
+    padding: 0 !important;
+}
+.xmodule_display.xmodule_CapaModule div.problem {
+    padding-top: 0 !important;
+    margin: 0 auto !important;
+    width: 1080px !important;
+}
+h3#ee9e25fa658d4fdeafa527f3d357a390-problem-title {
+    display: none !important;
+}
+div#block-v1\:Moinhos\+DIR_DDCA\+DIR_DDCA_T1\+type\@problem\+block\@ee9e25fa658d4fdeafa527f3d357a390-problem-progress {
+    display: none !important;
+}
+.course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+.problem p {
+    color: #666 !important;
+    font-size: 0.95em !important;
+}
+.xmodule_display.xmodule_CapaModule div.problem p {
+    font-size: 0.95em !important;
+    color:#666 !important;
+    line-height: 22px !important;
+    margin-top: 0 !important;
+    font-family: Arial !important;
+}
+.xmodule_display.xmodule_CapaModule div.problem p:last-child {
+    margin-bottom: 0 !important;
+}
+.xmodule_display.xmodule_CapaModule .feedback-hint-incorrect, .xmodule_display.xmodule_CapaModule .feedback-hint-partially-correct, .xmodule_display.xmodule_CapaModule .feedback-hint-correct {
+    margin-top: 10px !important;
+    padding: 20px !important;
+    border: 4px solid #ededec!important
+}
+.explanation-title {
+    display: none !important;
+}
+span.hint-label {
+    display: none !important;
+}
+.hint-text {
+    font-size: 0.95em !important;
+    color:#666 !important;
+    line-height: 22px !important;
+}
+.hd-3 {
+    display: none !important;
+}
+.xmodule_display.xmodule_CapaModule div.problem-progress {
+    display: none !important;
+}
+.course-wrapper .course-content .vert-mod>div ul, .course-wrapper .courseware-results-wrapper .vert-mod>div ul {
+    padding-left: 0 !important;
+    list-style: disc outside none;
+}
+span.action-button-text {
+    color: #fff;
+}
+.xmodule_display.xmodule_SequenceModule .sequence-bottom {
+    z-index: 1;
+}
+a.instructor-info-action {
+    display: none !important;
+}
+.course-wrapper .course-content ul li, .course-wrapper .courseware-results-wrapper ul li {
+    margin-bottom: 0;
+    list-style-type: none !important;
+}
+.xmodule_display.xmodule_HtmlModule ol, .xmodule_display.xmodule_HtmlModule ul {
+    padding: 0;
+    margin: 0;
+}
+.notification.success.notification-submit {
+    display: none !important;
+}
